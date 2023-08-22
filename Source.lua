@@ -60,7 +60,7 @@ function library:CreateWindow(name, version, icon)
 	Icon.Position = UDim2.new(0, 6, 0, 6)
 	Icon.Size = UDim2.new(0, 18, 0, 18)
 	Icon.Image = "rbxassetid://"..icon
-	Icon.ImageColor3 = Color3.fromRGB(75, 35, 75)
+	Icon.ImageColor3 = Color3.fromRGB(115, 35, 115)
 
 	MainTitle.Name = "Title"
 	MainTitle.Parent = TitleBar
@@ -76,7 +76,7 @@ function library:CreateWindow(name, version, icon)
 
 	TitleUnderline.Name = "TitleUnderline"
 	TitleUnderline.Parent = TitleBar
-	TitleUnderline.BackgroundColor3 = Color3.fromRGB(75, 35, 75)
+	TitleUnderline.BackgroundColor3 = Color3.fromRGB(115, 35, 115)
 	TitleUnderline.BorderSizePixel = 0
 	TitleUnderline.Position = UDim2.new(0, 0, 1, 0)
 	TitleUnderline.Size = UDim2.new(1, 0, 0, 1)
@@ -264,7 +264,7 @@ function library:CreateWindow(name, version, icon)
 
 		Indicator.Name = "Indicator"
 		Indicator.Parent = Tabs
-		Indicator.BackgroundColor3 = Color3.fromRGB(75, 35, 75)
+		Indicator.BackgroundColor3 = Color3.fromRGB(115, 35, 115)
 		Indicator.BorderSizePixel = 0
 		Indicator.BackgroundTransparency = 1
 		Indicator.Position = UDim2.new(0, -14, 0, 4)
@@ -304,7 +304,7 @@ function library:CreateWindow(name, version, icon)
 			Page.Position = UDim2.new(0, 150, 0, 36)
 			Page.Size = UDim2.new(1, -155, 1, -41)
 			Page.ScrollBarThickness = 5
-			Page.ScrollBarImageColor3 = Color3.fromRGB(75, 35, 75)
+			Page.ScrollBarImageColor3 = Color3.fromRGB(115, 35, 115)
 			Page.AutomaticCanvasSize = "Y"
 			Page.Visible = false
 
@@ -337,11 +337,11 @@ function library:CreateWindow(name, version, icon)
 			SearchIcon.Position = UDim2.new(0, 6, 0, 6)
 			SearchIcon.Size = UDim2.new(0, 18, 0, 18)
 			SearchIcon.Image = "rbxassetid://10045418551"
-			SearchIcon.ImageColor3 = Color3.fromRGB(75, 35, 75)
+			SearchIcon.ImageColor3 = Color3.fromRGB(115, 35, 115)
 
 			Bar_3.Name = "Bar"
 			Bar_3.Parent = SearchBar
-			Bar_3.BackgroundColor3 = Color3.fromRGB(75, 35, 75)
+			Bar_3.BackgroundColor3 = Color3.fromRGB(115, 35, 115)
 			Bar_3.Position = UDim2.new(0, 30, 0, 10)
 			Bar_3.Size = UDim2.new(0, 1, 1, -20)
 
@@ -381,7 +381,7 @@ function library:CreateWindow(name, version, icon)
 
 			Header.Name = "Header"
 			Header.Parent = Section
-			Header.BackgroundColor3 = Color3.fromRGB(75, 35, 75)
+			Header.BackgroundColor3 = Color3.fromRGB(115, 35, 115)
 			Header.BorderSizePixel = 0
 			Header.Size = UDim2.new(1, 0, 0, 8)
 
@@ -623,7 +623,7 @@ function library:CreateWindow(name, version, icon)
 						Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 						Sample.BackgroundTransparency = 1.000
 						Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
-						Sample.ImageColor3 = Color3.fromRGB(75, 35, 75)
+						Sample.ImageColor3 = Color3.fromRGB(115, 35, 115)
 						Sample.ImageTransparency = 0.600
 
 						local btn = Caller
@@ -668,7 +668,7 @@ function library:CreateWindow(name, version, icon)
 
 				Label.Name = "Label"
 				Label.Parent = SectionContainer
-				Label.BackgroundColor3 = Color3.fromRGB(75, 35, 75)
+				Label.BackgroundColor3 = Color3.fromRGB(115, 35, 115)
 				Label.BackgroundTransparency = 0.500
 				Label.Size = UDim2.new(1, 0, 0, 24)
 
@@ -683,7 +683,7 @@ function library:CreateWindow(name, version, icon)
 				_4pxShadow2px.Selectable = true
 				_4pxShadow2px.Size = UDim2.new(1, 30, 1, 30)
 				_4pxShadow2px.Image = "http://www.roblox.com/asset/?id=5761504593"
-				_4pxShadow2px.ImageColor3 = Color3.fromRGB(75, 35, 75)
+				_4pxShadow2px.ImageColor3 = Color3.fromRGB(115, 35, 115)
 				_4pxShadow2px.ImageTransparency = 0.700
 				_4pxShadow2px.ScaleType = Enum.ScaleType.Slice
 				_4pxShadow2px.SliceCenter = Rect.new(17, 17, 283, 283)
@@ -755,7 +755,7 @@ function library:CreateWindow(name, version, icon)
 
 				Indicator_3.Name = "Indicator"
 				Indicator_3.Parent = Tracker
-				Indicator_3.BackgroundColor3 = Color3.fromRGB(75, 35, 75)
+				Indicator_3.BackgroundColor3 = Color3.fromRGB(115, 35, 115)
 				Indicator_3.BorderSizePixel = 0
 				Indicator_3.Size = UDim2.new(0, 0, 1, 0)
 
@@ -767,13 +767,13 @@ function library:CreateWindow(name, version, icon)
 				Shadow_1.Selectable = true
 				Shadow_1.Size = UDim2.new(1, 30, 1, 30)
 				Shadow_1.Image = "http://www.roblox.com/asset/?id=5761504593"
-				Shadow_1.ImageColor3 = Color3.fromRGB(75, 35, 75)
+				Shadow_1.ImageColor3 = Color3.fromRGB(115, 35, 115)
 				Shadow_1.ImageTransparency = 1
 				Shadow_1.ScaleType = Enum.ScaleType.Slice
 				Shadow_1.SliceCenter = Rect.new(17, 17, 283, 283)
 
 				TextButton_2.Parent = Indicator_3
-				TextButton_2.BackgroundColor3 = Color3.fromRGB(75, 35, 75)
+				TextButton_2.BackgroundColor3 = Color3.fromRGB(115, 35, 115)
 				TextButton_2.Position = UDim2.new(1, -4, 0.5, -4)
 				TextButton_2.Size = UDim2.new(0, 8, 0, 8)
 				TextButton_2.Font = Enum.Font.SourceSans
@@ -789,7 +789,7 @@ function library:CreateWindow(name, version, icon)
 				Shadow_2.Selectable = true
 				Shadow_2.Size = UDim2.new(1, 30, 1, 30)
 				Shadow_2.Image = "http://www.roblox.com/asset/?id=5761504593"
-				Shadow_2.ImageColor3 = Color3.fromRGB(75, 35, 75)
+				Shadow_2.ImageColor3 = Color3.fromRGB(115, 35, 115)
 				Shadow_2.ImageTransparency = 1
 				Shadow_2.ScaleType = Enum.ScaleType.Slice
 				Shadow_2.SliceCenter = Rect.new(17, 17, 283, 283)
@@ -799,7 +799,7 @@ function library:CreateWindow(name, version, icon)
 
 				Fade.Name = "Fade"
 				Fade.Parent = TextButton_2
-				Fade.BackgroundColor3 = Color3.fromRGB(75, 35, 75)
+				Fade.BackgroundColor3 = Color3.fromRGB(115, 35, 115)
 				Fade.BackgroundTransparency = 1.000
 				Fade.Position = UDim2.new(-0.5, 0, -0.5, 0)
 				Fade.Size = UDim2.new(2, 0, 2, 0)
@@ -902,7 +902,7 @@ function library:CreateWindow(name, version, icon)
 
 				Footer_3.Name = "Footer"
 				Footer_3.Parent = TextBox
-				Footer_3.BackgroundColor3 = Color3.fromRGB(75, 35, 75)
+				Footer_3.BackgroundColor3 = Color3.fromRGB(115, 35, 115)
 				Footer_3.BackgroundTransparency = 0.750
 				Footer_3.Position = UDim2.new(0, 0, 1, -8)
 				Footer_3.Size = UDim2.new(1, 0, 0, 8)
@@ -947,7 +947,7 @@ function library:CreateWindow(name, version, icon)
 				EditIcon.Position = UDim2.new(0, 6, 0, 6)
 				EditIcon.Size = UDim2.new(0, 18, 0, 18)
 				EditIcon.Image = "rbxassetid://"..icon
-				EditIcon.ImageColor3 = Color3.fromRGB(75, 35, 75)
+				EditIcon.ImageColor3 = Color3.fromRGB(115, 35, 115)
 				function UpdateBox:UpdateBox(name)
 					TextInput.PlaceholderText = name
 				end
@@ -977,7 +977,7 @@ function library:CreateWindow(name, version, icon)
 
 				Footer_2.Name = "Footer"
 				Footer_2.Parent = Keybind
-				Footer_2.BackgroundColor3 = Color3.fromRGB(75, 35, 75)
+				Footer_2.BackgroundColor3 = Color3.fromRGB(115, 35, 115)
 				Footer_2.BackgroundTransparency = 0.750
 				Footer_2.Position = UDim2.new(0, 0, 1, -8)
 				Footer_2.Size = UDim2.new(1, 0, 0, 8)
@@ -1024,7 +1024,7 @@ function library:CreateWindow(name, version, icon)
 				Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				Sample.BackgroundTransparency = 1.000
 				Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
-				Sample.ImageColor3 = Color3.fromRGB(75, 35, 75)
+				Sample.ImageColor3 = Color3.fromRGB(115, 35, 115)
 				Sample.ImageTransparency = 0.600
 
 				UICorner_15.CornerRadius = UDim.new(0, 4)
@@ -1143,14 +1143,14 @@ function library:CreateWindow(name, version, icon)
 				UIStroke.Name = "UIStroke"
 				UIStroke.Parent = Indicator
 				UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
-				UIStroke.Color = Color3.fromRGB(75, 35, 75)
+				UIStroke.Color = Color3.fromRGB(115, 35, 115)
 				UIStroke.LineJoinMode = Enum.LineJoinMode.Round
 				UIStroke.Thickness = 2
 				UIStroke.Transparency = 0
 
 				Dot.Name = "Dot"
 				Dot.Parent = Indicator
-				Dot.BackgroundColor3 = Color3.fromRGB(75, 35, 75)
+				Dot.BackgroundColor3 = Color3.fromRGB(115, 35, 115)
 				Dot.BackgroundTransparency = 1.000
 				Dot.Position = UDim2.new(0, 2, 0, 2)
 				Dot.Size = UDim2.new(1, -4, 1, -4)

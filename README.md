@@ -1,5 +1,5 @@
-# VanisUI
-Vanis UI Library because source was removed
+# VanisUI Purple
+Vanis UI Library because source was removed. Instead of green the ui is purple :)
 
 ## Example
 
